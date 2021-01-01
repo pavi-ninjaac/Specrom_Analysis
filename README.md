@@ -9,4 +9,4 @@ Learning about the EDA(Exploratory Data Analysis) from jay sir book. --> [code f
 week1 Exploratory data analysis-- [Code for Reference]()<br>
 - Merge two dataframe
 - Dedublication
-- Language Detection using Fasttext
+- Language Detection using Fasttext --> [Code fore Reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Language_Detection_Using_Fasttext.ipynb)
