@@ -10,3 +10,5 @@ week1 Exploratory data analysis-- [Code for Reference]()<br>
 - Merge two dataframe
 - Dedublication
 - Language Detection using Fasttext --> [Code fore Reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Language_Detection_Using_Fasttext.ipynb)
+#### Day -4 (02/01/2021)
+- simple EDA plots -(continue to the last day)
