@@ -14,3 +14,5 @@ week1 Exploratory data analysis-- [Code for Reference]()<br>
 - simple EDA plots -(continue to the last day)
 - Named Entity Recognition - [Code for Reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Named_Entity_recognition.ipynb)
 - Final Analysis - basic plots and details
+#### Day-6 (04/01/2021)
+Completed the task and learned about NER and Lemmadization
