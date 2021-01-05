@@ -6,7 +6,7 @@ Learning about the regular expression -- > [Code for refrence](https://github.co
 #### Day - 2 -- (31/12/2020) (happy new year)
 Learning about the EDA(Exploratory Data Analysis) from jay sir book. --> [code for refrence](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/EDA_BBC_Dataset/EDA_text_classification_BBC_data.ipynb)  
 #### Day--3 --(01/01/2021)
-week1 Exploratory data analysis-- [Code for Reference]()<br>
+week1 Exploratory data analysis-- [Code for Reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Internship_works/week1/EDA.ipynb)<br>
 - Merge two dataframe
 - Dedublication
 - Language Detection using Fasttext --> [Code fore Reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Language_Detection_Using_Fasttext.ipynb)
