@@ -1,0 +1,12 @@
+BBC Full Text Document Classification---(clear one)
+https://www.kaggle.com/shivamkushwaha/bbc-full-text-document-classification
+
+News Category Dataset
+https://www.kaggle.com/rmisra/news-category-dataset
+
+Not clear
+http://qwone.com/~jason/20Newsgroups/
+
+has separete label confussed how to join those things
+https://github.com/mhjabreel/CharCnn_Keras/tree/master/data/ag_news_csv
+
