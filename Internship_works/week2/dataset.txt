@@ -1,24 +1,59 @@
-BBC Full Text Document Classification---(clear one)
+1)BBC Full Text Document Classification---(clear one)
 https://www.kaggle.com/shivamkushwaha/bbc-full-text-document-classification
 
-News Category Dataset
+2)News Category Dataset
 https://www.kaggle.com/rmisra/news-category-dataset
 
-Not clear
+3)Not clear
 http://qwone.com/~jason/20Newsgroups/
 
-has separete label confussed how to join those things
+4)has separete label confussed how to join those things
 https://github.com/mhjabreel/CharCnn_Keras/tree/master/data/ag_news_csv
 
-spots and business
+5)spots and business
 https://www.kaggle.com/asad1m9a9h6mood/news-articles
 
-Politics: 0 Technology: 1 Entertainment: 2 Business: 3 ( 4 category)
+6)Politics: 0 Technology: 1 Entertainment: 2 Business: 3 ( 4 category)
 https://www.kaggle.com/akash14/news-category-dataset
 
-Politics: 0
+7)Politics: 0
 Technology: 1
 Entertainment: 2
 Business: 3 ( kaggle excel sheet)
 https://www.kaggle.com/rohan9889/predict-news-category
 
+8))1. Product / fdaApproval
+2. Contract
+3. Dividend
+4. ManagementChanges
+5. JointVentures / StrategicAlliance
+6. Lawsuits
+7. Earnings
+8. LabourUnion ( 8 category)
+https://www.kaggle.com/arpytanshu/business-articles-classification-dataset
+
+9)Business
+Politics
+Health
+Family And Education
+Science And Environment
+Technology
+Entertainment And Arts
+Sport
+Travel
+Food And Drink (10 category)
+https://www.kaggle.com/jamessteve/categorized-news-articles
+
+10)POLITICS
+WELLNESS
+ENTERTAINMENT
+TRAVEL
+STYLE & BEAUTY ( 4 category)
+https://www.kaggle.com/shivam271882/news-classification-dataset
+
+11)sport
+business
+politics
+entertainment
+tech (5 category)
+https://www.kaggle.com/avishi/bbc-news-train-data
