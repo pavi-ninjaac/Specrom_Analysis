@@ -10,3 +10,15 @@ http://qwone.com/~jason/20Newsgroups/
 has separete label confussed how to join those things
 https://github.com/mhjabreel/CharCnn_Keras/tree/master/data/ag_news_csv
 
+spots and business
+https://www.kaggle.com/asad1m9a9h6mood/news-articles
+
+Politics: 0 Technology: 1 Entertainment: 2 Business: 3 ( 4 category)
+https://www.kaggle.com/akash14/news-category-dataset
+
+Politics: 0
+Technology: 1
+Entertainment: 2
+Business: 3 ( kaggle excel sheet)
+https://www.kaggle.com/rohan9889/predict-news-category
+
