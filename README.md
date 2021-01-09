@@ -16,3 +16,9 @@ week1 Exploratory data analysis-- [Code for Reference](https://github.com/pavi-n
 - Final Analysis - basic plots and details
 #### Day-6 (04/01/2021)
 Completed the task and learned about NER and Lemmatization
+## Week -2
+#### Day 7-10 (05/01/2021 - 08/01/2021)
+- Work Evaluation and next step discussion.
+- Collected open source dataset for next step
+#### Day 11 (9/01/2021)
+Text classification -----> [Code for reference]()
