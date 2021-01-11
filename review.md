@@ -4,7 +4,9 @@
 -	[Understanding the data](#understanding-the-data)
 -	[Deduplication and handling null values](#deduplication-and-handling-null-values)
 -	[Cleaning the text:](#cleaning-the-text) 
--	[Team members](#team-members)
+-	[TfidfVectorization](#tfidfVectorization)
+-	[Time for training and testing](#time-for-training-and-testing)
+
 # About the project:
 This is a text classification project, here I calssified the news article under different categories. For this project I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)
 This dataset is in jason format with 200853 sample and 6 features. The news articles are classified under 41 categories. let's see the implementation and analysis.
@@ -40,12 +42,22 @@ This means there is no null values. Is our data contains no null values?? It’s
 
 With this lines of code I am removing all the null values and continue further.<br/>
 
-After all I combined all the 3 feature(author,headline,short_description)  into one features(text). Now , our dataset looks like below and we are ready for cleaning and vectorization.<br/>
+After all I combined all the 2 feature(headline,short_description)  into one features(text). Now , our dataset looks like below and we are ready for cleaning and vectorization.<br/>
 
 # Cleaning the text:
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
 
+# TfidfVectorization:
+- TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
+- It is a measure of originality of a word by comparing the number of times the word appears in the document with the number of documents the word appears in.
+- One can also use the TfidfTransformer which will give you the same result,but will take few more extra steps than Tfidfvectorizer.
+- This model will find the importance of each word in the given documents. The word which appears more time will get lesser score , lesser score will leads to less importance , like wise the word which appears less times will get higher score and high importance.
+ - [Reference1](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a),[Reference2](https://kavita-ganesan.com/tfidftransformer-tfidfvectorizer-usage-differences/#.X_xudegzbIU),[Know about the IDF](https://kavita-ganesan.com/what-is-inverse-document-frequency/#.X_xuzugzbIU)
+<br/><br/>
+Using this Tfidfvectorizer, i vectorized the document and made ready for the training.
 
-
+# Time for training and testing:
+I have trained my data with 5 different models lets see the report of that models.
+pic
