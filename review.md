@@ -12,13 +12,16 @@ This dataset is in jason format with 200853 sample and 6 features. The news arti
 # Understanding the data
 The data was in json format after reading, I dropped some unnecessary features like date,image_url and continued with the feature only I need.<br/>
 Let’s analyses the category column.<br/>
-pie chart
+
+![Screenshot (409)](https://user-images.githubusercontent.com/51699297/104182031-d34d7200-5435-11eb-8d8d-aca29b34bc94.png)
 
 As shown in figure, there are 41 categories, some of them like Education, College etc are having very small samples and Similar in nature. The model accuracy may decreased due to the imbalance in category. So, I merged up some of the category and named it. you can see the new categories and its name below. Noe there are only 19 categories,<br/>
 
-barchart
-We can analyse the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 35,000+ articles.<br/>
-Author_bar
+![Screenshot (408)](https://user-images.githubusercontent.com/51699297/104182037-d7798f80-5435-11eb-8aa5-e49e1dd1f751.png)
+
+We can analyse the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 2,000+ articles.<br/>
+
+![Screenshot (407)](https://user-images.githubusercontent.com/51699297/104182043-d8aabc80-5435-11eb-8a56-2dce6d13a67b.png)
 
 # Deduplication and handling null values:
 The next important step is to remove the duplicates,<br/>
@@ -43,3 +46,6 @@ After all I combined all the 3 feature(author,headline,short_description)  into 
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
+
+
+
