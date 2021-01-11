@@ -4,8 +4,9 @@
 -	[Understanding the data](#understanding-the-data)
 -	[Deduplication and handling null values](#deduplication-and-handling-null-values)
 -	[Cleaning the text:](#cleaning-the-text) 
--	[TfidfVectorization](#tfidfVectorization)
+-	[Tfidf Vectorization](#tfidf-vectorization)
 -	[Time for training and testing](#time-for-training-and-testing)
+- [Conclusion](#conclusion) 
 
 # About the project:
 This is a text classification project, here I calssified the news article under different categories. For this project I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)
@@ -49,7 +50,7 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the  ca
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
 
-# TfidfVectorization:
+# Tfidf Vectorization:
 - TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
 - It is a measure of originality of a word by comparing the number of times the word appears in the document with the number of documents the word appears in.
 - One can also use the TfidfTransformer which will give you the same result,but will take few more extra steps than Tfidfvectorizer.
@@ -59,5 +60,9 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the  ca
 Using this Tfidfvectorizer, i vectorized the document and made ready for the training.
 
 # Time for training and testing:
-I have trained my data with 5 different models lets see the report of that models.
-pic
+I have trained my data with 5 different models lets see the report of that models.<br/>
+
+![Screenshot (411)](https://user-images.githubusercontent.com/51699297/104228830-66f06400-5471-11eb-8ff0-1231191c026f.png)
+
+# Conclusion:
+ Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
