@@ -31,7 +31,9 @@ data.isnull().sum() #output is Zero
 ```
 This means there is no null values. Is our data contains no null values?? It’s so rare, In our case the null values are filled with empty strings(‘’) .<br/>
 
-code pic
+
+![Screenshot (402)](https://user-images.githubusercontent.com/51699297/104180572-5b7e4800-5433-11eb-858c-396a81e4fd0d.png)
+
 
 With this lines of code I am removing all the null values and continue further.<br/>
 
@@ -40,4 +42,4 @@ After all I combined all the 3 feature(author,headline,short_description)  into 
 # Cleaning the text:
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
 
-code pic
+![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
