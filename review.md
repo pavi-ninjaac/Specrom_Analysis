@@ -3,7 +3,7 @@
 -	[About the project](#about-the-project) 
 -	[Understanding the data](#understanding-the-data)
 -	[Deduplication and handling null values](#deduplication-and-handling-null-values)
--	[Cleaning the text:](#cleaning-the-text:) 
+-	[Cleaning the text:](#cleaning-the-text) 
 -	[Team members](#team-members)
 # About the project:
 This is a text classification project, here I calssified the news article under different categories. For this project I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)
