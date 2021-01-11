@@ -22,3 +22,4 @@ Completed the task and learned about NER and Lemmatization
 - Collected open source dataset for next step
 #### Day 11 (9/01/2021)
 Text classification -----> [Code for reference](https://github.com/pavi-ninjaac/Specrom_Analysis/blob/main/Internship_works/week2/notebookea2f6f5a32.ipynb)
+#
