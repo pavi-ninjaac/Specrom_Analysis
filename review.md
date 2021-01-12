@@ -73,10 +73,12 @@ I have trained my data with 5 different models lets see the report of that model
 
 ![Screenshot (417)](https://user-images.githubusercontent.com/51699297/104292221-9095a380-54e2-11eb-9d59-7128f868c44d.png)
 
-# Conclusion:
+# Conclusion and About Author:
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
  
  - You can also view the code here-----> [Reference Code]() 
 ### About the Author:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Pavithra Devi M</i></b>, I am a Computer Science 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Pavithra Devi M</i></b>, I am a Computer Science Engineering student having interest in learn new techniques every day. Intern at Specrom Analytics, as a Data Science intern here I am learning lot of NLP stuffs. 
+Pursuing B.E. Computer Science and Engineering in University College of Engineering BIT Campus, Anna University. Being a CS Student I have some experience and understanding in Python and Machine Learning
+
