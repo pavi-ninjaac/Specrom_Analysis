@@ -55,7 +55,7 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the  ca
 - Our model much be balanced , that means all categories must have almost same number of samples then only we can get better performance. For this, I have dropped the “Education ,Style ,College ,Environment “ categories which all have very same number of samples, and selected 3000 samples from remaining 15 categories , now our dataset  has 45000 samples under 15 categories. 
 - Now, our dataset’s category distribution is looks like below,
 
-
+![Screenshot (418)](https://user-images.githubusercontent.com/51699297/104292151-7956b600-54e2-11eb-85dc-7543e38aed26.png)
 
 - With this dataset we are continuing the Vectorization and Training and then finally we are going to Evaluate our 5 different model’s training and testing performance. 
 
@@ -71,7 +71,7 @@ Using this Tfidfvectorizer, i vectorized the document and made ready for the tra
 # Time for training and testing:
 I have trained my data with 5 different models lets see the report of that models.<br/>
 
-![Screenshot (411)](https://user-images.githubusercontent.com/51699297/104228830-66f06400-5471-11eb-8ff0-1231191c026f.png)
+![Screenshot (417)](https://user-images.githubusercontent.com/51699297/104292221-9095a380-54e2-11eb-9d59-7128f868c44d.png)
 
 # Conclusion:
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
