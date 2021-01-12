@@ -4,6 +4,7 @@
 -	[Understanding the data](#understanding-the-data)
 -	[Deduplication and handling null values](#deduplication-and-handling-null-values)
 -	[Cleaning the text:](#cleaning-the-text) 
+- [Make Balanced Dataset](#make-balanced-dataset)
 -	[Tfidf Vectorization](#tfidf-vectorization)
 -	[Time for training and testing](#time-for-training-and-testing)
 - [Conclusion](#conclusion) 
@@ -49,6 +50,14 @@ After all I combined all the 2 feature(headline,short_description)  into one fea
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
+
+# Make Balanced Dataset:
+- Our model much be balanced , that means all categories must have almost same number of samples then only we can get better performance. For this, I have dropped the “Education ,Style ,College ,Environment “ categories which all have very same number of samples, and selected 3000 samples from remaining 15 categories , now our dataset  has 45000 samples under 15 categories. 
+- Now, our dataset’s category distribution is looks like below,
+
+
+
+- With this dataset we are continuing the Vectorization and Training and then finally we are going to Evaluate our 5 different model’s training and testing performance. 
 
 # Tfidf Vectorization:
 - TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
