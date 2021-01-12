@@ -76,7 +76,9 @@ I have trained my data with 5 different models lets see the report of that model
 # Conclusion and About Author:
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
  
- - You can also view the code here-----> [Reference Code]() 
+ - You can also view the code here--------------------------------> [Reference Code]() 
+ - You can collect all the images used in this article here---------> [Image Folder](https://github.com/pavi-ninjaac/Specrom_Analysis/tree/main/Internship_works/week2/article_images)
+ 
 ### About the Author:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Pavithra Devi M</i></b>, I am a Computer Science Engineering student having interest in learn new techniques every day. Intern at Specrom Analytics, as a Data Science intern here I am learning lot of NLP stuffs. 
