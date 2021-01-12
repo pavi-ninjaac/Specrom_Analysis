@@ -7,7 +7,7 @@
 - [Make Balanced Dataset](#make-balanced-dataset)
 -	[Tfidf Vectorization](#tfidf-vectorization)
 -	[Time for training and testing](#time-for-training-and-testing)
-- [Conclusion](#conclusion) 
+- [Conclusion and About Author](#conclusion-and-about-author) 
 
 # About the project:
 This is a text classification project, here I calssified the news article under different categories. For this project I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)
@@ -77,3 +77,6 @@ I have trained my data with 5 different models lets see the report of that model
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
  
  - You can also view the code here-----> [Reference Code]() 
+### About the Author:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Pavithra Devi M</i></b>, I am a Computer Science 
