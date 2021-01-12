@@ -76,13 +76,18 @@ I have trained my data with 5 different models lets see the report of that model
 # Conclusion and About Author:
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
  
- - You can also view the code here--------------------------------> [Reference Code]() 
+ - You can also view the code here--------------------------------> [Kaggle Notebokk](https://www.kaggle.com/ninjaac/text-classification-newss), [GitHub Code]() 
  - You can collect all the images used in this article here---------> [Image Folder](https://github.com/pavi-ninjaac/Specrom_Analysis/tree/main/Internship_works/week2/article_images)
  
 ### About the Author:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Pavithra Devi M</i></b>, I am a Computer Science Engineering student having interest in learn new techniques every day. Intern at Specrom Analytics, as a Data Science intern here I am learning lot of NLP stuffs. 
-Pursuing B.E. Computer Science and Engineering in University College of Engineering BIT Campus, Anna University. Being a CS Student I have some experience and understanding in Python and Machine Learning
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I am <b><i>Pavithra Devi M</i></b>,, a Computer Science Engineering student. Being a Computer Science student, I always love to learn new techniques every day. Put my dreams and aims apart,” I always want to be the best person where I am in”. One day I stumbled upon one application that can say your health condition with your DNA Sequences. Without knowing anything about ML & DL stuffs that day, I really wondered and got interest in Machine Learning and AI. I have Started understanding Maths and Machine Learning Algorithms. Got some experience through different internship and live projects in this field.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Currently pursuing mine under graduation from University College of Engineering BIT Campus, Anna University at Tamil Nadu, India. And as a Data Science Intern at Specrom Analytics learning lots of NLP stuffs through different projects and data. Now I am participating in lots of Competitions, the open-source community works to enhance my skills and to get more knowledge that can not be learned through books and projects. That makes me more confident and clear. My current ambition is to be a part of a world-level project which will change this whole world.<br>
+- Gmail : pavipd495@gmail.com
+- GitHub : @pavi-ninjaac
+- Contact number : 7904014309
+- LinkedIn : @Pavithra Devi M
+ 
 
 
 
