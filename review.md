@@ -47,29 +47,29 @@ After all I combined all the 2 feature(headline,short_description)  into one fea
 
 # Cleaning the text:
 
-Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
+Cleaning the text involves removing the unnecessary whitespaces, convert the capital letters to smaller ones, and remove symbols. With the below line of code, I am cleaning the text and splitting it for training and testing. <br/>
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
 
 # Make Balanced Dataset:
-- Our model much be balanced , that means all categories must have almost same number of samples then only we can get better performance. For this, I have dropped the “Education ,Style ,College ,Environment “ categories which all have very same number of samples, and selected 3000 samples from remaining 15 categories , now our dataset  has 45000 samples under 15 categories. 
+- Our model needs a  balanced dataset, which means all categories must have the same number of samples, then only we can get better performance. For this, I have dropped the “Education, Style, College, Environment “ categories which all have a very small number of samples, and selected 3000 samples from the remaining 15 categories, now our dataset has 45000 samples under 15 categories. 
 - Now, our dataset’s category distribution is looks like below,
 
 ![Screenshot (418)](https://user-images.githubusercontent.com/51699297/104292151-7956b600-54e2-11eb-85dc-7543e38aed26.png)
 
-- With this dataset we are continuing the Vectorization and Training and then finally we are going to Evaluate our 5 different model’s training and testing performance. 
+- With this dataset, we are continuing the Vectorization and Training, finally we are going to Evaluate our 5 different model’s training and testing performance. 
 
 # Tfidf Vectorization:
-- TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
-- It is a measure of originality of a word by comparing the number of times the word appears in the document with the number of documents the word appears in.
-- One can also use the TfidfTransformer which will give you the same result,but will take few more extra steps than Tfidfvectorizer.
-- This model will find the importance of each word in the given documents. The word which appears more time will get lesser score , lesser score will leads to less importance , like wise the word which appears less times will get higher score and high importance.
+- TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform the text into a meaningful representation of numbers, which is used to fit a machine algorithm for prediction.
+- It is a measure of the originality of a word by comparing the number of times the word appears in the document with the number of documents the word appears in.
+- One can also use the TfidfTransformer, which will give you the same result but, it will take a few more extra steps than Tfidfvectorizer.
+- This model will find the importance of each word in the given documents. The word which appears more time will get a lesser score. The vocabulary which has a lesser score will get less importance. Likewise, the word which appears fewer times will get a higher score and high importance.
  - [Reference1](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a),[Reference2](https://kavita-ganesan.com/tfidftransformer-tfidfvectorizer-usage-differences/#.X_xudegzbIU),[Know about the IDF](https://kavita-ganesan.com/what-is-inverse-document-frequency/#.X_xuzugzbIU)
 <br/><br/>
-Using this Tfidfvectorizer, i vectorized the document and made ready for the training.
+Using this Tfidfvectorizer, I vectorized the document and made it ready for the training.
 
 # Time for training and testing:
-I have trained my data with 5 different models lets see the report of that models.<br/>
+I have trained my data with 5 different models lets see the report of those models.<br/>
 
 ![Screenshot (417)](https://user-images.githubusercontent.com/51699297/104292221-9095a380-54e2-11eb-9d59-7128f868c44d.png)
 
