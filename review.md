@@ -46,6 +46,7 @@ With these lines of code, I am removing all the null values and continue further
 After all I combined all the 2 feature(headline,short_description)  into one features(text). Now, our dataset looks like below and we are ready for cleaning and vectorization.<br/>
 
 # Cleaning the text:
+
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
