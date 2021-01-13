@@ -10,20 +10,19 @@
 - [Conclusion and About Author](#conclusion-and-about-author) 
 
 # About the project:
-This is a text classification project, here I calssified the news article under different categories. For this project I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)
-This dataset is in jason format with 200853 sample and 6 features. The news articles are classified under 41 categories. let's see the implementation and analysis.
+In this article, we will see the text classification model using NLP and machine learning. For this project, I Collected the Dataset from Kaggle named [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset).
+This dataset is in JSON format with a 200853 sample and 6 features. The news articles are classified under 41 categories. let's see the implementation and analysis.
 
 # Understanding the data
-The data was in json format after reading, I dropped some unnecessary features like date,image_url and continued with the feature only I need.<br/>
-Let’s analyses the category column.<br/>
-
+he data was in JSON format after reading, I dropped some unnecessary features like date,image_url, and continued with the feature only I need.
+Let’s analyze the category column.
 ![Screenshot (409)](https://user-images.githubusercontent.com/51699297/104182031-d34d7200-5435-11eb-8d8d-aca29b34bc94.png)
 
-As shown in figure, there are 41 categories, some of them like Education, College etc are having very small samples and Similar in nature. The model accuracy may decreased due to the imbalance in category. So, I merged up some of the category and named it. you can see the new categories and its name below. Noe there are only 19 categories,<br/>
+As shown in the figure, there are 41 categories, some of them like Education, College and others are having a very number of small samples and Similar in nature. The model accuracy may be decreased due to the imbalance in the categories. So, I merged up some of the categories and named them. You can see the new categories and their names below. Now, there are only 19 categories,<br/>
 
 ![Screenshot (408)](https://user-images.githubusercontent.com/51699297/104182037-d7798f80-5435-11eb-8aa5-e49e1dd1f751.png)
 
-We can analyse the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 2,000+ articles.<br/>
+We can analyze  the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 2,000+ articles.<br/>
 
 ![Screenshot (407)](https://user-images.githubusercontent.com/51699297/104182043-d8aabc80-5435-11eb-8a56-2dce6d13a67b.png)
 
@@ -36,15 +35,15 @@ With this line of code I removed the duplicates by ‘headline and short_descrip
 ```
 data.isnull().sum() #output is Zero
 ```
-This means there is no null values. Is our data contains no null values?? It’s so rare, In our case the null values are filled with empty strings(‘’) .<br/>
+This means there are no null values. Is our data contains no null values?? It’s so rare, In our case the null values are filled with empty strings(‘’) .<br/>
 
 
 ![Screenshot (402)](https://user-images.githubusercontent.com/51699297/104180572-5b7e4800-5433-11eb-858c-396a81e4fd0d.png)
 
 
-With this lines of code I am removing all the null values and continue further.<br/>
+With these lines of code, I am removing all the null values and continue further.<br/>
 
-After all I combined all the 2 feature(headline,short_description)  into one features(text). Now , our dataset looks like below and we are ready for cleaning and vectorization.<br/>
+After all I combined all the 2 feature(headline,short_description)  into one features(text). Now, our dataset looks like below and we are ready for cleaning and vectorization.<br/>
 
 # Cleaning the text:
 Cleaning the text involves removing the unnecessary whitespaces, convert the  capital letters to smaller one and remove symbols . with the below line of code I am cleaning the text and splitting it for training and testing. <br/>
