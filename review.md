@@ -1,4 +1,5 @@
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   News Article Classification
+
 ### Table of Content:
 -	[About the project](#about-the-project) 
 -	[Understanding the data](#understanding-the-data)
