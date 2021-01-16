@@ -19,11 +19,9 @@ he data was in JSON format after reading, I dropped some unnecessary features li
 Let’s analyze the category column.
 ![Screenshot (409)](https://user-images.githubusercontent.com/51699297/104182031-d34d7200-5435-11eb-8d8d-aca29b34bc94.png)
 
-As shown in the figure, there are 41 categories, some of them like Education, College and others are having a very number of small samples and Similar in nature. The model accuracy may be decreased due to the imbalance in the categories. So, I merged up some of the categories and named them. You can see the new categories and their names below. Now, there are only 19 categories,<br/>
+- As shown in the figure, there are 41 categories, some of them like Education, College and others are having a very small number of  samples. The model accuracy may be decreased due to the imbalance in the categories. So, we have to take care about the imbalance and have to downsample this dataset to some certain threshold value. We can see how this should be done in later on this article.,<br/>
 
-![Screenshot (408)](https://user-images.githubusercontent.com/51699297/104182037-d7798f80-5435-11eb-8aa5-e49e1dd1f751.png)
-
-We can analyze  the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 2,000+ articles.<br/>
+- We can analyze  the authors and their articles. Here you can see the number of articles under the top 25 authors. The author named  <b>”Lee Moran”</b>  released 2,000+ articles.<br/>
 
 ![Screenshot (407)](https://user-images.githubusercontent.com/51699297/104182043-d8aabc80-5435-11eb-8a56-2dce6d13a67b.png)
 
@@ -53,7 +51,7 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the cap
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
 
 # Make Balanced Dataset:
-- Our model needs a  balanced dataset, which means all categories must have the same number of samples, then only we can get better performance. For this, I have dropped the “Education, Style, College, Environment “ categories which all have a very small number of samples, and selected 3000 samples from the remaining 15 categories, now our dataset has 45000 samples under 15 categories. 
+- Our model needs a  balanced dataset, which means all categories must have the same number of samples, then only we can get better performance. For this, I have dropped the “Education, Style, College, Environment ,etc “ categories which all have a very small number of samples, and selected 3000 samples from the remaining 15 categories, now our dataset has 45000 samples under 15 categories. 
 - Now, our dataset’s category distribution is looks like below,
 
 ![Screenshot (418)](https://user-images.githubusercontent.com/51699297/104292151-7956b600-54e2-11eb-85dc-7543e38aed26.png)
