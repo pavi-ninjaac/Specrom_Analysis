@@ -51,10 +51,10 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the cap
 ![Screenshot (403)](https://user-images.githubusercontent.com/51699297/104180597-633dec80-5433-11eb-9ed0-eef3aaa3ff2e.png)
 
 # Make Balanced Dataset:
-- Our model needs a  balanced dataset, which means all categories must have the same number of samples, then only we can get better performance. For this, I have dropped the “Education, Style, College, Environment ,etc “ categories which all have a very small number of samples, and selected 3000 samples from the remaining 15 categories, now our dataset has 45000 samples under 15 categories. 
+- Our model needs a  balanced dataset, which means all categories must have the same number of samples, then only we can get better performance. For this, I have dropped the “Education, Style, College, Environment ,etc “ categories which all have a very small number of samples, and randomly selected 3000 samples from the remaining 15 categories, now our dataset has 45000 samples under 15 categories. 
 - Now, our dataset’s category distribution is looks like below,
 
-![Screenshot (418)](https://user-images.githubusercontent.com/51699297/104292151-7956b600-54e2-11eb-85dc-7543e38aed26.png)
+![balanced_cate_bar_6](https://user-images.githubusercontent.com/51699297/104798685-c1c9e880-57ee-11eb-8f18-31537d84fd33.png)
 
 - With this dataset, we are continuing the Vectorization and Training, finally we are going to Evaluate our 5 different model’s training and testing performance. 
 
