@@ -56,7 +56,7 @@ Cleaning the text involves removing the unnecessary whitespaces, convert the cap
 
 ![balanced_cate_bar_6](https://user-images.githubusercontent.com/51699297/104798685-c1c9e880-57ee-11eb-8f18-31537d84fd33.png)
 
-- With this dataset, we are continuing the Vectorization and Training, finally we are going to Evaluate our 5 different model’s training and testing performance. 
+- With this dataset, we are continuing the Vectorization and Training, finally we are going to Evaluate our 4 different model’s training and testing performance. 
 
 # Tfidf Vectorization:
 - TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform the text into a meaningful representation of numbers, which is used to fit a machine algorithm for prediction.
@@ -70,7 +70,8 @@ Using this Tfidfvectorizer, I vectorized the document and made it ready for the 
 # Time for training and testing:
 I have trained my data with 5 different models lets see the report of those models.<br/>
 
-![Screenshot (417)](https://user-images.githubusercontent.com/51699297/104292221-9095a380-54e2-11eb-9d59-7128f868c44d.png)
+![report_6](https://user-images.githubusercontent.com/51699297/104808808-a40c7b80-580e-11eb-8882-dacbb037c42e.png)
+
 
 # Conclusion and About Author:
  Finally amoung all the model I have tried , The <b> Logistic Regression</b> gives me the high performance.
